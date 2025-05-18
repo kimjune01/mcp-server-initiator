@@ -1,10 +1,10 @@
 {
     "mcpServers": {
-      "holster": {
+      "mcp-initiator": {
         "command": "uv",
         "args": [
           "--directory",
-          "/Users/junekim/Documents/boiler",
+          "/Users/junekim/Documents/mcp-initiator",
           "run",
           "server.py"
         ]

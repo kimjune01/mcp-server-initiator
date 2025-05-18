@@ -1,14 +1,9 @@
 [project]
-name = "boiler"
+name = "mcp-initiator"
 version = "0.1.0"
-description = "Boiler project"
+description = "MCP Initiator project"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "httpx>=0.24.0",
     "mcp[cli]>=1.7.1",
 ]
-
-[tool.ruff]
-line-length = 88
-target-version = "py313" 
